@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KIRO GAMES STORE | PlayStation Exploits & Services</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="site-shell">
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="KIRO GAMES STORE">
+      <img src="kiro-logo.png" alt="KIRO GAMES STORE">
+      <span class="brand-copy"><strong>KIRO <em>GAMES STORE</em></strong><small>PLAYSTATION EXPLOITS &amp; SERVICES</small></span>
+    </a>
+    <nav class="nav">
+      <a class="active" href="#home">⌂ <span>الرئيسية</span></a>
+      <a href="#firmware">▦ <span>الأنظمة</span></a>
+      <a href="#services">⚙ <span>الخدمات</span></a>
+      <a href="#help">? <span>مساعدة</span></a>
+      <a href="https://www.facebook.com/Kiro.Games.Store/" target="_blank" rel="noopener">f <span>فيسبوك</span></a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero panel">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <img src="kiro-logo.png" alt="KIRO GAMES STORE" class="hero-logo">
+        <div>
+          <div class="hero-title">KIRO <span>GAMES STORE</span></div>
+          <div class="hero-sub">PLAYSTATION EXPLOITS &amp; SERVICES</div>
+        </div>
+        <div class="game-on">GAME<br><b>ON</b></div>
+      </div>
+    </section>
+
+    <section class="dashboard">
+      <div class="firmware panel" id="firmware">
+        <div class="section-title"><span>♛</span> Select Your Firmware <span>♛</span></div>
+        <div class="firmware-grid">
+          <button class="btn gold" onmouseover="setMsg('PS4 GoldHEN Host for 5.05 and 7.00 to 13.00 FW - Auto Exploit Selection')" onclick="location.replace('g2all/index.html')"><b>♛</b> GoldHEN Multi FW<small>5.05 - 7.00 - 13.00</small></button>
+          <button class="btn" onmouseover="setMsg('PS4 5.05 FW Host v2.5')" onclick="location.replace('505/index.html')"><b>◉</b> 5.05 FW v2.5</button>
+          <a class="btn" href="672goldhen/index.html" onmouseover="setMsg('PS4 6.72 FW GoldHEN')"><b>◉</b> 6.72 FW GoldHEN</a>
+          <a class="btn" href="672/index.html" onmouseover="setMsg('PS4 6.72 FW Host v3.0')"><b>◉</b> 6.72 FW v3.0</a>
+          <a class="btn" href="900goldhen/index.html" onmouseover="setMsg('PS4 9.00 FW GoldHEN')"><b>◉</b> 9.00 FW GoldHEN</a>
+          <a class="btn" href="900v3/index.html" onmouseover="setMsg('PS4 9.00 FW Host v3.0')"><b>◉</b> 9.00 FW v3.0</a>
+          <button class="btn restore" onmouseover="setMsg('Restore a Host to User Guide without using DNS')" onclick="location.replace('restore/index.html')"><b>⟳</b> Restore Host</button>
+        </div>
+        <a id="services" class="service-banner" href="https://wa.me/201225772035" target="_blank" rel="noopener"><span>🔧</span> جميع خدمات وصيانة اجهزة البلايستيشن <strong>→</strong></a>
+        <div class="status" id="msgs">PS4 Exploit Host by KIRO GAMES STORE</div>
+      </div>
+
+      <aside class="social panel" id="help">
+        <h2>Follow Us</h2>
+        <div class="social-block facebook">
+          <div class="social-label"><span class="social-icon">f</span><b>Facebook Page:</b></div>
+          <a href="https://www.facebook.com/Kiro.Games.Store/" target="_blank" rel="noopener"><img src="facebook-qr.png" alt="KIRO GAMES STORE Facebook QR"></a>
+          <strong>KIRO GAMES STORE</strong>
+        </div>
+        <div class="social-block whatsapp">
+          <div class="social-label"><span class="social-icon">◉</span><b>WhatsApp:</b></div>
+          <a href="https://wa.me/201225772035" target="_blank" rel="noopener"><img src="whatsapp-qr.png" alt="KIRO GAMES STORE WhatsApp QR"></a>
+          <strong>KIRO GAMES STORE</strong>
+        </div>
+        <button class="btn return" onclick="window.scrollTo({top:0,behavior:'smooth'})">↩ &nbsp; Return</button>
+      </aside>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><img src="kiro-logo.png" alt="KIRO"><span><b>KIRO <em>GAMES STORE</em></b><small>PLAYSTATION EXPLOITS &amp; SERVICES</small></span></div>
+    <div class="footer-tag">△ ○ × □ &nbsp; PLAYSTATION FOREVER &nbsp; △ ○ × □</div>
+    <div class="footer-copy">Designed by: <b>KIRO GAMES STORE</b> &nbsp; | &nbsp; A special thanks to all the devs on the scene.</div>
+  </footer>
+</div>
+<script>
+function setMsg(text){document.getElementById('msgs').textContent=text;}
+document.querySelectorAll('.btn, .service-banner').forEach(function(el){el.addEventListener('mouseleave',function(){setMsg('PS4 Exploit Host by KIRO GAMES STORE');});});
+</script>
+</body>
+</html>
